@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.img{
+    width: 400px; 
+    height: 400px;
+    background-size: 100% 100%;
+    border: 10px solid beige;
+    animation: slider 10s linear infinite;
+   
+}
+@keyframes slider {
+    0%{
+        background-image: url("../assets/home1.jpeg");
+    }
+    25% {
+        background-image: url("../assets/home1.jpeg");
+    }
+    30%{
+        background-image: url("../assets/home2.jpeg");
+    }
+    55%{
+        background-image: url("../assets/home2.jpeg");
+    }
+    60%{
+        background-image: url("../assets/home5.jpeg");
+    }
+    85%{
+        background-image: url("../assets/home5.jpeg");
+    }
+    90%{
+        background-image: url("../assets/home4.jpeg");
+    }
+    100%{
+        background-image: url("../assets/home4.jpeg");
+    }
+    
+    
+}
+.box{
+    width: 350px; /* Set width and height for better visibility */
+    height: 500px;
+    background-color: Beige;
+}
+.mainbox{
+    background-color: Tan;
+    margin-top: -5%;
+}
+.circle{
+    background-color: Beige;
+    border-radius: 70%;
+    margin-left: 25%;
+    color:brown;
+height: 300px;
+width: 300px;
+}
+.col hr{
+    width: 350px;
+    border: 3px solid brown;
+    margin-left: 22%;
+}

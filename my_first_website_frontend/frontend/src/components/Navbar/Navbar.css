@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.Navbar{
+    display: flex;               /* Make the div a flex container */
+  align-items: center;         /* Vertically center items */
+  justify-content: space-between;  /* Distribute space between items */
+   padding: 10px 20px;          /*Add some padding for better spacing */
+  background-color: tan;   /* Optional: Background color for visibility */
+  height: auto;
+ 
+}
+.logo{
+    float:left;
+    color: brown;
+
+}
+.search{
+    width: 100vh;
+   
+}
+.btn{
+    color:brown;
+}
+.nav-cart-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+    margin-left:70%;
+    margin-top: -10%;
+    margin-bottom: -3%;
+    color:black;
+}
+.navicons{
+    color: #3B2A1A;
+    display: flex;               /* Make the div a flex container */
+  align-items: center;         /* Vertically center items */
+  justify-content: space-between;
+}
+

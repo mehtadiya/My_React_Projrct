@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: beige ;
+}
+.items hr{
+    /* background-color:red; */
+    border: 1px solid brown;
+    /* height: 20px; */
+
+}
+

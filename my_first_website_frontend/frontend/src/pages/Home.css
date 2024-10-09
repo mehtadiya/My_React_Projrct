@@ -1,0 +1,28 @@
+
+.homebox{
+    background-color: tan;
+   margin-top: -4%;
+    height: 700px;
+   
+
+}
+.text{
+    color: brown;
+}
+
+.image{
+    height: 250px;
+    width: 200px;
+    border: 5px solid white;
+
+}
+.slant{
+    transform: rotate(15deg);
+    display: flex;
+    justify-content: space-between;
+
+}
+.rbox{
+    background-color: beige;
+    margin-left: -7%;
+}

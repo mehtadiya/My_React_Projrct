@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+#form{
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    /* filter: drop-shadow(1px 1px 20px black); */
+    box-shadow: 1px 1px 20px black;
+    margin: 30px;
+}
+.row{
+    margin: 5%;
+}
+.main{
+    background-image: url("../assets/img3.jpeg");  
+    background-color: tan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+   
+    margin-top: -2%;
+   
+  
+}

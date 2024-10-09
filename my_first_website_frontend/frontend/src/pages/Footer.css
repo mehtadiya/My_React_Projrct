@@ -1,0 +1,19 @@
+.footerpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: tan;
+    margin-top: 1%;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    color: brown;
+}
